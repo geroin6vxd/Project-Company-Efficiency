@@ -1,0 +1,176 @@
+#content {
+    margin: -30px 0px 0px 0px;
+    min-height: 100px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+}
+h2{
+    margin:0px;
+}
+.finearea, .finestr{
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    outline: none !important;
+    color: #333 !important;
+    width: 100% !important;
+    border: 1px solid #c7d0d2 !important;
+    border-radius: 5px !important;
+    transition: all .4s ease !important;
+}
+.finetext{
+    font-family: "Helvetica Neue", Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    outline: none !important;
+    color: #333 !important;
+}
+.finestr {
+    height: 20px !important;
+}
+
+.finestr:hover, .finearea:hover {
+    border: 1px solid #b6bfc0; !important;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .9), 0 0 0 5px #f5f7f8 !important;
+}
+
+.finestr:focus .finearea:focus{
+    border: 1px solid #a8c9e4 !important;
+    box-shadow: inset 0 1.5px 3px rgba(190, 190, 190, .4), 0 0 0 5px #e6f2f9 !important;
+}
+
+.finebutton {
+    margin-right: 10px!important;
+    margin-top: 10px !important;
+    width: 135px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+    color: #fff !important;
+    background: #5c9ccc url("redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") repeat-x scroll 50% 50% !important;
+    border-radius: 30px !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .5) !important;
+    cursor: pointer !important;
+    outline: none !important;
+}
+
+.finebutton:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, .3) !important;
+    outline: none !important;
+}
+
+.finebutton:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .3), inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+    outline: none !important;
+}
+
+.finebutton.small {
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    width: 50px !important;
+    height: 30px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
+
+.finetable{
+    background: #5c9ccc url("redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png") repeat-x scroll 50% 50%;
+}
+.finetable th {
+    font-size: 13px;
+    font-weight: normal;
+    text-align: center;
+    border-top: 4px solid #aabcfe;
+    border-bottom: 1px solid #fff;
+    padding: 8px;
+    color: #fff;
+}
+
+.finetable td {
+    border: 1px solid #fff;
+    text-align: center;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+    color: #fff;
+}
+
+.dialogs {
+    display: none;
+    text-align: center;
+}
+
+.textcenter {
+    text-align: center;
+}
+.textright {
+    text-align: right;
+}
+.textleft {
+    text-align: left;
+}
+
+h2{
+    color:#5c9ccc;
+}
+.no-close .ui-dialog-titlebar-close {
+    display: none;
+}
+.ui-dialog-titlebar { height: 10px; }
+.ui-dialog-title, .ui-tabs{
+    font-size: 14px !important;
+    text-align: center!important;
+    margin-top:-5px!important;
+
+}
+.ui-state-active a {
+    color:#2e6e9e !important;
+}
+
+.chosen-container.chosen-container-single {
+    width: 100% !important; /* or any value that fits your needs */
+}
+.ui-dialog{
+    overflow: initial !important;
+}
+.ui-widget{font-size:14px !important}
+.panel{
+    border:1px solid silver;
+    padding: 5px;
+}
+.panel .panel-caption{
+    position:relative;
+    top:-25px;
+    left: 5px;
+    background: white none repeat scroll 0 0;
+    width:auto;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:3px;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.scroll {
+    width: auto;
+    overflow-x:scroll;
+}
+.error{
+    background: #FFCCCC;
+}
+.editable {
+    cursor:pointer;
+}
+.editable:hover {
+    background: lightyellow;
+    color: black;
+}
+
+#summaryDialog{
+    position:fixed;
+    top:150px;
+    right:20px;
+    width:150px;
+    height: auto;
+
+}
