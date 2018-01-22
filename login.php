@@ -10,7 +10,7 @@ if (isset ($_REQUEST['action'])) {
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Login</title>
+	<title>Login page</title>
 	<link rel="stylesheet" href="styles/custom_styles.css">
 </head>
 <body>
